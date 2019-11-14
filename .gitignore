@@ -1,0 +1,30 @@
+.*
+!.gitignore
+!.gitattributes
+/.classpath
+tmp
+logs
+/out
+/.settings
+*.DS_Store
+/.project
+
+# IDE files
+/.idea
+/*.iml
+/*.ipr
+*.iws
+/.idea_modules
+eclipse
+.scala_dependencies
+
+# BrowserStack files
+BrowserStackLocal*
+
+# sbt files
+dist
+target
+lib_managed
+src_managed/
+project/project
+project/target
